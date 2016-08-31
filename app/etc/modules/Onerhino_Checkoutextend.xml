@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Onerhino_Checkoutextend>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Checkout />
+                <Studioforty9_Recaptcha />
+            </depends>
+        </Onerhino_Checkoutextend>
+    </modules>
+</config>
