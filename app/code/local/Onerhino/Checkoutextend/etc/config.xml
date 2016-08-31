@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Onerhino_Checkoutextend>
-			<version>0.1.0</version>
+			<version>0.1.1</version>
 		</Onerhino_Checkoutextend>
 	</modules>
 	<global>
@@ -10,6 +10,11 @@
 			<onerhino_checkoutextend>
 				<class>Onerhino_Checkoutextend_Block</class>
 			</onerhino_checkoutextend>
+			<onestepcheckout>
+				<rewrite>
+					<checkout>Onerhino_Checkoutextend_Block_Checkout</checkout>
+				</rewrite>
+			</onestepcheckout>
 		</blocks>
 		<helpers>
 			<onerhino_checkoutextend>
